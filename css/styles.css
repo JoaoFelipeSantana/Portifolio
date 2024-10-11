@@ -1,3 +1,9 @@
+:root {
+    --cor-fundo: #000000;
+    --cor-texto: #ffffff;
+    --cor-roxo-padão: #6a0dad;
+}
+
 * {
     margin: 0;
     padding: 0;
