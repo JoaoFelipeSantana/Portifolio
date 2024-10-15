@@ -4,6 +4,7 @@
     --cor-fundo: #000000;
     --cor-texto: #ffffff;
     --cor-roxo-padão: #6a0dad;
+    --cor-roxo-destaque: #b700ffc3;
 }
 
 html {
@@ -168,6 +169,13 @@ nav ul li a:hover::before {
     align-items: center;
     border-radius: 15px;
     border: 2px solid var(--cor-texto);
+}
+
+.btnContato li:hover {
+    box-shadow: 1px 1px 10px white;
+    transform: scale(1.1);
+    background-color: var(--cor-roxo-destaque);
+    transition-duration: 300ms;
 }
 
 .svgCont {
