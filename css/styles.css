@@ -4,6 +4,10 @@
     --cor-roxo-padão: #6a0dad;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -76,4 +80,8 @@ nav ul li a::before {
 nav ul li a:hover::before {
     width: 100%;
     left: 0;
+}
+
+.todasSections {
+    height: 100vh;
 }
