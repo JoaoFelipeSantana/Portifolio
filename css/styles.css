@@ -6,6 +6,7 @@
 
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 * {
@@ -84,4 +85,54 @@ nav ul li a:hover::before {
 
 .todasSections {
     height: 100vh;
+}
+
+.capa {
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 250px;
+}
+
+.capa h1 {
+    font-size: 110px;
+}
+
+.capa h3 {
+    color: var(--cor-roxo-padão);
+    font-size: 50px;
+    margin-top: 30px;
+}
+
+.btnContato {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.fBtnContato {
+    margin-top: 60px;
+    width: 400px;
+}
+
+.btnContato a {
+    text-decoration: none;
+}
+
+.btnContato li {
+    background-color: var(--cor-roxo-padão);
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    border: 2px solid var(--cor-texto);
+}
+
+.svgCont {
+    width: 50px;
+    height: 50px;
 }
