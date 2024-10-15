@@ -182,3 +182,39 @@ nav ul li a:hover::before {
     width: 50px;
     height: 50px;
 }
+
+.sobreMim {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+}
+
+.sobreMim img {
+    width: 400px;
+    border-radius: 50%;
+    margin-left: 110px;
+    box-shadow: 1px 1px 30px var(--cor-roxo-padão);
+}
+
+.txtSobreMim {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    font-size: 20px;
+    justify-content: center;
+}
+
+.txtSobreMim h2 {
+    font-weight: 500;
+    font-size: 55px;
+    margin-bottom: 25px;
+}
+
+.txtSobreMim p {
+    line-height: 29px;
+    font-weight: 300;
+}
