@@ -109,6 +109,38 @@ nav ul li a:hover::before {
     margin-top: 30px;
     font-family: "Source Code Pro";
     font-weight: 400;
+    border-right: 5px solid var(--cor-roxo-padão);
+    white-space: nowrap;
+    overflow: hidden;
+    display: inline-block;
+    animation: marcador 0.75s step-end infinite, escrevendo 10s steps(25, end) infinite;
+}
+
+@keyframes marcador {
+    from, to { border-color: transparent; }
+    50% { border-color: var(--cor-roxo-padão); }
+}
+
+@keyframes escrevendo {
+    0% {
+        width: 0;
+    }
+
+    20% {
+        width: 23ch;
+    }
+
+    70% {
+        width: 23ch;
+    }
+
+    85% {
+        width: 0;
+    }
+
+    100% {
+        width: 0;;
+    }
 }
 
 .btnContato {
