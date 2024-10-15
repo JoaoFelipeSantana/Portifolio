@@ -361,3 +361,8 @@ nav ul li a:hover::before {
     cursor: pointer;
 }
 
+.todosProjetos a {
+    text-decoration: none;
+    color: var(--cor-texto);
+}
+
